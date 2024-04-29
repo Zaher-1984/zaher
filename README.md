@@ -1,1 +1,1 @@
-A static HTML public website for me
+A static HTML public website for me.
