@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth bg-background">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zaher Alashker - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Playfair Display', 'serif'], // Updated to Playfair Display
+          },
+          colors: {
+            background: '#020617', // Updated background color (darker - slate-950)
+            card: '#0F172A',       // Dark slate (slate-900) - section/card/navbar background
+            textPrimary: '#F1F5F9', // slate-100 (main text)
+            textSecondary: '#94A3B8', // slate-400 (secondary text)
+            accent: {
+              light: '#38BDF8', // sky-400
+              DEFAULT: '#0EA5E9', // sky-500
+              dark: '#0284C7',  // sky-600
+            },
+            borderLight: '#334155', // slate-700
+            borderDark: '#475569', // slate-600
+            success: '#22C55E', // green-500
+          }
+        }
+      }
+    }
+  </script>
+
+<style>
+  html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  #root {
+    flex-grow: 1;
+  }
+  /* Active link styling handled by Navbar component directly via classes */
+</style>
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-CQxFWr_4.js"></script>
+</head>
+<body class="bg-background text-textPrimary">
+  <div id="root"></div>
+</body>
+</html>
